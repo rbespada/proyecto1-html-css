@@ -1,11 +1,11 @@
-  /* ==== RESET ==== */
+  /* -------------------------------------------------- RESET ------------------------------------------- */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* ==== VARIABLES ==== */
+  /* -------------------------------------------------- VARIABLES ---------------------------------------- */
   :root {
     --color-primario: #ff9900;
     --color-secundario: #f4f4f4;
@@ -13,7 +13,7 @@
     --fuente-principal: 'Segoe UI', sans-serif;
   }
   
-  /* ==== GENERAL ==== */
+  /* --------------------------------------------------- GENERAL ------------------------------------------ */
   body {
     font-family: var(--fuente-principal);
     background-color: var(--color-secundario);
@@ -21,7 +21,7 @@
     line-height: 1.6;
   }
   
-  /* ==== HEADER ==== */
+  /* ------------------------------------------------- HEADER --------------------------------------------- */
   header {
     background-color: var(--color-primario);
     color: white;
@@ -52,7 +52,7 @@
     color: #222;
   }
 
-  /* ==== HERO ==== */
+  /* -----------------------------------------------------HERO ---------------------------------------------------- */
   #hero {
     position: relative;
     background-size: cover;
@@ -98,7 +98,7 @@
     background-color: #e28100;
   }
   
-  /* ==== SOBRE MI ==== */
+  /* ----------------------------------------------------------------------- SOBRE MI ---------------------------------------------------- */
   #sobre-mi {
     background-color: transparent;
     padding: 4rem 2rem;
@@ -108,7 +108,7 @@
   }
   
   .sobre-mi-overlay {
-    background-color: rgba(0, 0, 0, 0.6); /* negro con opacidad */
+    background-color: rgba(0, 0, 0, 0.6); /* negro con opacidad para que se vea bien el texto de encima */
     padding: 2rem;
     border-radius: 10px;
   }
@@ -147,7 +147,7 @@
   }
   
 
-  /* ==== FONDO COMPARTIDO ENTRE HERO Y SOBRE MI ==== */
+  /* ---------------------------------------------------- FONDO COMPARTIDO ENTRE HERO Y SOBRE MI -------------------------------------- */
   .fondo-compartido {
     background-image: url('./img/naruto-hero.jpg');
     background-size: cover;
@@ -160,7 +160,7 @@
 
 
 
-  /* ==== PORTAFOLIO ==== */
+  /* ----------------------------------------------------------------- PORTAFOLIO ------------------------------------------------- */
   #portafolio {
     padding: 4rem 2rem;
     background-color:var(--color-primario);
@@ -214,7 +214,7 @@
     line-height: 1.5;
   }
   
-  /* ==== CONTACTO ==== */
+  /* --------------------------------------------------------------------- CONTACTO ---------------------------------------------- */
   #contacto {
     padding: 4rem 2rem;
     background-color: #f0f0f0;
@@ -265,7 +265,7 @@
   }
   
   
-  /* ==== FOOTER ==== */
+  /* ---------------------------------------------------------------- FOOTER ----------------------------------------------------------- */
   footer {
     background-color: #111;
     color: #eee;
