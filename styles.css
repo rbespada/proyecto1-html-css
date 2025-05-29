@@ -289,3 +289,24 @@
     color: #fff;
   }
   
+
+
+
+  /*---------------------------------- CLARIDAD EN MÓVIL ------------------------------------*/
+  
+@media (max-width: 768px) {
+  .contenido-sobre-mi {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .contenido-sobre-mi img {
+    width: 60%;
+  }
+
+  .contenido-sobre-mi .texto {
+    text-align: center;
+    width: 100%;
+  }
+}
